@@ -1,0 +1,93 @@
+# Copyright (c) 2016 Shotgun Software Inc.
+#
+# CONFIDENTIAL AND PROPRIETARY
+#
+# This work is provided "AS IS" and subject to the Shotgun Pipeline Toolkit
+# Source Code License included in this distribution package. See LICENSE.
+# By accessing, using, copying or modifying this work you indicate your
+# agreement to the Shotgun Pipeline Toolkit Source Code License. All rights
+# not expressly granted therein are reserved by Shotgun Software Inc.
+#
+
+# locations for common engines
+
+##################### CUSTOM #####################
+
+common.engines.tk-katana.location:
+  type: dev
+  name: tk-katana
+  version: v0.0.1
+  path: "/RAPA/tk_custom_engines/tk-katana/v0.0.1"
+
+common.engines.tk-clarisse.location:
+  type: dev
+  name: tk-clarisse
+  version: v0.0.2
+  path: "/RAPA/tk_custom_engines/tk-clarisse/v0.0.2"
+
+common.engines.tk-mari.location:
+  type: dev
+  name: tk-mari
+  version: v1.4.1
+  path: "/RAPA/tk_custom_engines/tk-mari/v1.4.1"
+
+##################################################
+
+# 3dsMax using the tk-3dsmaxplus engine
+common.engines.tk-3dsmaxplus.location:
+  type: app_store
+  name: tk-3dsmaxplus
+  version: v0.6.2
+common.engines.tk-3dsmax.location:
+  type: app_store
+  name: tk-3dsmax
+  version: v1.3.2
+common.engines.tk-houdini.location:
+  type: app_store
+  name: tk-houdini
+  version: v1.9.1
+common.engines.tk-maya.location:
+  type: app_store
+  name: tk-maya
+  version: v0.12.0
+common.engines.tk-nuke.location:
+  type: app_store
+  name: tk-nuke
+  version: v0.14.4
+  #Valid version
+common.engines.tk-photoshopcc.location:
+  type: app_store
+  name: tk-photoshopcc
+  version: v1.10.0
+common.engines.tk-aftereffects.location:
+  type: app_store
+  name: tk-aftereffects
+  version: v0.4.0
+common.engines.tk-flame.location:
+  type: app_store
+  name: tk-flame
+  version: v1.19.0
+common.engines.tk-alias.location:
+  type: app_store
+  name: tk-alias
+  version: v3.1.0
+common.engines.tk-vred.location:
+  type: app_store
+  name: tk-vred
+  version: v3.1.1
+common.engines.tk-desktop.location:
+  type: app_store
+  name: tk-desktop
+  version: v2.7.0
+common.engines.tk-desktop2.location:
+  type: app_store
+  name: tk-desktop2
+  version: v1.6.0
+common.engines.tk-shell.location:
+  type: app_store
+  name: tk-shell
+  version: v0.10.0
+common.engines.tk-shotgun.location:
+  type: app_store
+  name: tk-shotgun
+  version: v0.11.0
